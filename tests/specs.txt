@@ -6,10 +6,6 @@ input: "word"
 Tests that the user's word input is at least being passed into function.
 output: "word"
 
-input: "word"
-Tests that "word" will be split into an array of its letters.
-output: ['w', 'o', 'r', 'd']
-
 input: "If word is the input, how many times should the word search count be?"
 Tests if counter is displaying the correct amount of full word matches.
 output: 2
