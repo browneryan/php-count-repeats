@@ -6,6 +6,8 @@ input: "Not words but word"
 Tests if counter not counting partial word matches.
 output: 1
 
-input: "Looking for word, not words."
+input: "Looking for word, not words, maybe even 'word'."
 Tests if counter can handle punctuation.
-output: 1
+output: 2
+
+input: 'Looking for word, not words, maybe even "word".'
