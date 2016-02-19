@@ -1,12 +1,4 @@
 input: "This is a sentence"
-Tests that the user's sentence input is at least being passed into the function.
-output: "This is a sentence."
-
-input: "word"
-Tests that the user's word input is at least being passed into function.
-output: "word"
-
-input: "This is a sentence"
 Tests that "This is a sentence" will be split into an array of its words.
 output: ['This', 'is', 'a', 'sentence']
 
