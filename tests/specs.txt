@@ -1,19 +1,19 @@
 input: "This is a sentence."
-expect: user sentence input to be passed into function.
+Tests that the user's sentence input is at least being passed into the function.
 output: "This is a sentence."
 
 input: "word"
-expect: user word input to be passed into function.
+Tests that the user's word input is at least being passed into function.
 output: "word"
 
 input: "word"
-expect: "word" to be split into an array of its letters.
+Tests that "word" will be split into an array of its letters.
 output: ['w', 'o', 'r', 'd']
 
 input: "If word is the input, how many times should the word search count be?"
-expect: counter to display correct amount of full word matches.
+Tests if counter is displaying the correct amount of full word matches.
 output: 2
 
 input: "In all of these words, how many times should the word 'word' be counted?"
-expect: counter to not count partial word matches.
+Tests if counter not counting partial word matches.
 output: 1
