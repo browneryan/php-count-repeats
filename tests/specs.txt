@@ -1,7 +1,3 @@
-input: "This is a sentence"
-Tests that "This is a sentence" will be split into an array of its words.
-output: ['This', 'is', 'a', 'sentence']
-
 input: "If word is the input, how many times should the word search count be?"
 Tests if counter is displaying the correct amount of full word matches.
 output: 2
