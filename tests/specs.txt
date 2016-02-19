@@ -1,0 +1,3 @@
+input: "word"
+We expect "word" to be split into an array of it's letters.
+output: ['w', 'o', 'r', 'd']
