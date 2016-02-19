@@ -11,5 +11,5 @@ Tests if counter can handle punctuation.
 output: 2
 
 input: "Looking for Word, not words, maybe even 'woRd'."
-Tests if counter can deal wit case-sensitivity.
+Tests if counter can deal with case-sensitivity.
 output: 2

@@ -27,7 +27,17 @@
         function test_punctuation()
         {
             $test_count_repeats = new RepeatCounter;
-            $user_sentence = "Looking for word, not words, but word, maybe even 'word'.";
+            $user_sentence = "Looking for word, not words, but word, maybe even 'word!#$%^&*()_-=+~`:;'.";
+            $user_word = "word";
+
+            $result = $test_count_repeats->countRepeats($user_sentence, $user_word);
+
+            $this->assertEquals(3, $result);
+        }
+        function test_case_sensitivity()
+        {
+            $test_count_repeats = new RepeatCounter;
+            $user_sentence = "Looking for Word, not words, but worD, maybe even 'woRd'.";
             $user_word = "word";
 
             $result = $test_count_repeats->countRepeats($user_sentence, $user_word);

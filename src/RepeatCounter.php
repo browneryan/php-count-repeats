@@ -3,7 +3,8 @@
     {
         function countRepeats($user_sentence, $user_word)
         {
-            $split_sentence = preg_split("/[\W]+/", $user_sentence);
+            $lowercase_sentence = strtolower($user_sentence);
+            $split_sentence = preg_split("/[\W]+/", $lowercase_sentence);
 
             $count = 0;
 
