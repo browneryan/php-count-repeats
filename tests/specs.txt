@@ -5,3 +5,7 @@ output: ['w', 'o', 'r', 'd']
 input: "How many full matches of the word 'word' can be found?"
 expect: counter to display correct amount of full word matches
 output: 2
+
+input: "In all of these words, how many times should the word 'word' be counted?"
+expect: counter to not count partial word matches
+output: 2
