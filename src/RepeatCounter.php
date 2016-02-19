@@ -1,9 +1,9 @@
 <?php
     class RepeatCounter
     {
-      function countRepeats($sentence, $word)
-      {
-
-      }
+        function countRepeats($user_sentence)
+        {
+            return $user_sentence;
+        }
     }
 ?>
