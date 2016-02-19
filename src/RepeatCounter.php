@@ -3,7 +3,7 @@
     {
         function countRepeats($user_sentence, $user_word)
         {
-            $split_sentence = preg_split("/[\s,.']+/", $user_sentence);
+            $split_sentence = preg_split("/[\W]+/", $user_sentence);
 
             $count = 0;
 

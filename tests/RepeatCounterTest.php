@@ -27,7 +27,7 @@
         function test_punctuation()
         {
             $test_count_repeats = new RepeatCounter;
-            $user_sentence = "Looking for word, not words, but word, maybe even 'word.'";
+            $user_sentence = "Looking for word, not words, but word, maybe even 'word'.";
             $user_word = "word";
 
             $result = $test_count_repeats->countRepeats($user_sentence, $user_word);

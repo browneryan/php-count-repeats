@@ -9,5 +9,3 @@ output: 1
 input: "Looking for word, not words, maybe even 'word'."
 Tests if counter can handle punctuation.
 output: 2
-
-input: 'Looking for word, not words, maybe even "word".'
