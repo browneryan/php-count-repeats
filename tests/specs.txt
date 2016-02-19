@@ -1,7 +1,11 @@
-input: "If word is the input, how many times should the word search count be?"
+input: "Looking for word"
 Tests if counter is displaying the correct amount of full word matches.
-output: 2
+output: 1
 
-input: "In all of these words, how many times should the word 'word' be counted?"
+input: "Not words but word"
 Tests if counter not counting partial word matches.
+output: 1
+
+input: "Looking for word, not words."
+Tests if counter can handle punctuation.
 output: 1
