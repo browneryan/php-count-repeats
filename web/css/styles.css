@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
