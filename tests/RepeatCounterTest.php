@@ -8,11 +8,20 @@
         {
             $test_count_repeats = new RepeatCounter;
             $user_word = "word";
-            $user_sentence = "This is a sentence.";
+            $user_sentence = "This is a sentence";
 
             $result = $test_count_repeats->countRepeats($user_sentence, $user_word);
 
-            $this->assertEquals(["This is a sentence.", "word"], $result);
+            $this->assertEquals(["This is a sentence", "word"], $result);
+        }
+        function test_sentence_explode()
+        {
+            $test_count_repeats = new RepeatCounter;
+            $user_sentence = "This is a sentence";
+
+            $result = $test_count_repeats->countRepeats($user_sentence, $user_word);
+
+            $this->assertEquals(["This", "is", "a", "sentence", "word"], $result);
         }
     }
 
