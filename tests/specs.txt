@@ -1,3 +1,7 @@
 input: "word"
-We expect "word" to be split into an array of it's letters.
+expect: "word" to be split into an array of it's letters.
 output: ['w', 'o', 'r', 'd']
+
+input: "How many full matches of the word 'word' can be found?"
+expect: counter to display correct amount of full word matches
+output: 2
